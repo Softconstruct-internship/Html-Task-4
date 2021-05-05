@@ -3,7 +3,8 @@
   letter-spacing: 4px;
   position: sticky;
   top: 0;
-  z-index: 10; }
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .navbar {
   display: flex;
@@ -24,6 +25,30 @@
       .navbar .navbar-list li .navbar-list-item {
         text-decoration: none;
         color: black; }
+
+.background-container {
+  max-width: 100%;
+  height: 800px;
+  background-image: url("../assets/img/architect.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10px; }
+  .background-container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white; }
+    .background-container div .span-1 {
+      font-size: 30px;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 15px 5px !important; }
+    .background-container div .span-2 {
+      font-size: 30px;
+      padding-left: 15px;
+      font-weight: normal; }
 
 * {
   margin: 0;
