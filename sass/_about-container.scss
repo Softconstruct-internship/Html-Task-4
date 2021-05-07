@@ -1,0 +1,49 @@
+.about-container {
+    padding: 60px 0 30px !important;
+    div {
+        h2 {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            margin: 15px 0;
+            font-size: $big_font_size;
+        }
+        p {
+            padding-top: 20px;
+        }
+    }
+}
+
+.architects-conatainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px;
+}
+.architects-conatainer > div {
+    height: 200px;
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    img {
+        width: 100%;
+    }
+    h3 {
+        position: absolute;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    small {
+        color: gray;
+    }
+    button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        &:hover {
+            background-color: rgb(201, 203, 204);
+            cursor: pointer;
+        }
+    }
+}

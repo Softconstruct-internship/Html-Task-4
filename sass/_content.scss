@@ -1,0 +1,27 @@
+.house-section {
+    padding: 30px !important;
+    .project-container {
+        h2 {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            margin: 10px 0;
+            font-size: $big_font_size;
+        }
+    }
+}
+
+.house-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px;
+ 
+}
+.house-container > div {
+    height: 200px;
+    font-size: 5vw;
+    background: gold;
+    text-align: center;
+    
+}

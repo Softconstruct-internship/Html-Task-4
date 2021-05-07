@@ -1,10 +1,18 @@
 @import "variables";
 @import "header";
 @import "background-architect";
-
+@import "content";
+@import "about-container";
+@import "form";
+@import "footer-architect";
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana,sans-serif;
     font-size: 15px
+}
+
+html body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
