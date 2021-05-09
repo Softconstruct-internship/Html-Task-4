@@ -16,12 +16,23 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2vw;
     padding-top: 30px;
- 
+   
+    div{
+        padding-bottom: 10px;
+        img{
+            width: 100%;
+        }
+        p{
+            position: absolute;
+            background-color: $navbar_item_color;
+            color: $header_background;
+            padding: 10px;
+        }
+    }
 }
 .house-container > div {
     height: 200px;
     font-size: 5vw;
-    background: gold;
     text-align: center;
-    
 }
+
